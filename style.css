@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+header{ 
+    background-color: #112031;  
+}
+
+.header-section {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-logo h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-section h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.header-section p{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link ul{
+    display: flex;
+    font-size: 24px;
+    gap: 20px;
+}
+
+.header-link a, li{
+    color: #f9faf8;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Info*/
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    background-color: #D4ECDD;
+}
+
+.info-section h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+/*Quote*/
+.quote-section{
+    padding: 60px;
+    text-align: center;
+    background-color: #DBCBBD;
+}
+
+.quote-section h1{
+    font-size: 36px;
+    font-weight: 300;
+    color: #112031;  
+}
+
+/*Footer*/
+.footer-section{
+    text-align: center;
+    padding: 10px;
+    background-color: #345B63;
+    color: #f9faf8;
+}
+
